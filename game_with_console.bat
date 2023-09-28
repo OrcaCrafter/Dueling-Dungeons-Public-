@@ -1,0 +1,1 @@
+java -cp game.jar game.Main

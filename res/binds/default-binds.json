@@ -1,0 +1,146 @@
+[
+	{
+		"key" : "w",
+		"commands" : [
+			{
+				"command" : "+moveup",
+				"edge" : "rising"
+			},{
+				"command" : "-moveup",
+				"edge" : "falling"
+			}
+		]
+	},{
+		"key" : "a",
+		"commands" : [
+			{
+				"command" : "+moveleft",
+				"edge" : "rising"
+			},{
+				"command" : "-moveleft",
+				"edge" : "falling"
+			}
+		]
+	},{
+		"key" : "s",
+		"commands" : [
+			{
+				"command" : "+movedown",
+				"edge" : "rising"
+			},{
+				"command" : "-movedown",
+				"edge" : "falling"
+			}
+		]
+	},{
+		"key" : "d",
+		"commands" : [
+			{
+				"command" : "+moveright",
+				"edge" : "rising"
+			},{
+				"command" : "-moveright",
+				"edge" : "falling"
+			}
+		]
+	},{
+		"key" : "shift",
+		"commands" : [
+			{
+				"command" : "dash",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "j",
+		"commands" : [
+			{
+				"command" : "noclip",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "k",
+		"commands" : [
+			{
+				"command" : "kill type:'undead'",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "f3",
+		"commands" : [
+			{
+				"command" : "debug",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "f6",
+		"commands" : [
+			{
+				"command" : "fullscreen set:toggle",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "mouse1",
+		"commands" : [
+			{
+				"command" : "set_tile type:'wall' info:'{}'",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "mouse2",
+		"commands" : [
+			{
+				"command" : "set_tile type:'floor' info:'{}'",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "mouse3",
+		"commands" : [
+			{
+				"command" : "set_tile type:'debugblock' info:'{}'",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "m",
+		"commands" : [
+			{
+				"command" : "map_fullscreen set:true",
+				"edge" : "rising"
+			},{
+				"command" : "map_fullscreen set:false",
+				"edge" : "falling"
+			}
+		]
+	},{
+		"key" : "n",
+		"commands" : [
+			{
+				"command" : "map_fullscreen set:toggle",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "page_up",
+		"commands" : [
+			{
+				"command" : "zoom scale:1.05",
+				"edge" : "rising"
+			}
+		]
+	},{
+		"key" : "page_down",
+		"commands" : [
+			{
+				"command" : "zoom scale:0.95",
+				"edge" : "rising"
+			}
+		]
+	}
+]

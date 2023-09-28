@@ -1,0 +1,278 @@
+[
+	{
+		"name" : "stone",
+		"class" : "organic",
+		"region_info" : {
+			"spawn_weight" : 50,
+			"size_weight" : 1
+		},
+		"generation_info" : {
+			"scale" : 0.05,
+			"tile_set" : [
+				{
+					"factory" : "floor",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 20
+				},{
+					"factory" : "wall",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 10
+				}
+			],
+			"spawning_info" : {
+				"spawn_weight_range" : 200,
+				"spawn_list" : [
+					{
+						"entity" : "zombie",
+						"weight" : 30
+					},{
+						"entity" : "skeleton",
+						"weight" : 25
+					},{
+						"entity" : "ghost",
+						"weight" : 20
+					},{
+						"entity" : "vampire",
+						"weight" : 15
+					},{
+						"entity" : "coin",
+						"weight" : 50
+					},{
+						"entity" : "potion",
+						"weight" : 10
+					},{
+						"entity" : "powerhat",
+						"weight" : 5
+					}
+				]
+			}
+		}
+	},{
+		"name" : "flooded_caves",
+		"class" : "organic",
+		"region_info" : {
+			"spawn_weight" : 30,
+			"size_weight" : 1
+		},
+		"generation_info" : {
+			"scale" : 0.10,
+			"tile_set" : [
+				{
+					"factory" : "water",
+					"info" : {
+						"flow" : "still"
+					},
+					"weight" : 15
+				},{
+					"factory" : "floor",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 10
+				},{
+					"factory" : "wall",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 5
+				}
+			],
+			"spawning_info" : {
+				"spawn_weight_range" : 200,
+				"spawn_list" : [
+					{
+						"entity" : "zombie",
+						"weight" : 30
+					},{
+						"entity" : "skeleton",
+						"weight" : 25
+					},{
+						"entity" : "ghost",
+						"weight" : 20
+					},{
+						"entity" : "vampire",
+						"weight" : 15
+					},{
+						"entity" : "coin",
+						"weight" : 50
+					},{
+						"entity" : "potion",
+						"weight" : 10
+					},{
+						"entity" : "powerhat",
+						"weight" : 5
+					}
+				]
+			}
+		}
+	},{
+		"name" : "dense_caves",
+		"class" : "organic",
+		"region_info" : {
+			"spawn_weight" : 20,
+			"size_weight" : 0.5
+		},
+		"generation_info" : {
+			"scale" : 0.25,
+			"tile_set" : [{
+					"factory" : "floor",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 15
+				},{
+					"factory" : "wall",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 10
+				}
+			],
+			"spawning_info" : {
+				"spawn_weight_range" : 200,
+				"spawn_list" : [
+					{
+						"entity" : "zombie",
+						"weight" : 30
+					},{
+						"entity" : "skeleton",
+						"weight" : 25
+					},{
+						"entity" : "ghost",
+						"weight" : 20
+					},{
+						"entity" : "vampire",
+						"weight" : 15
+					},{
+						"entity" : "coin",
+						"weight" : 20
+					},{
+						"entity" : "potion",
+						"weight" : 20
+					},{
+						"entity" : "powerhat",
+						"weight" : 5
+					}
+				]
+			}
+		}
+	},{
+		"name" : "sandy_caves",
+		"class" : "organic",
+		"region_info" : {
+			"spawn_weight" : 10,
+			"size_weight" : 1.33
+		},
+		"generation_info" : {
+			"scale" : 0.05,
+			"tile_set" : [{
+					"factory" : "floor",
+					"info" : {
+						"type" : "sand"
+					},
+					"weight" : 15
+				},{
+					"factory" : "wall",
+					"info" : {
+						"type" : "sandstone"
+					},
+					"weight" : 10
+				}
+			],
+			"spawning_info" : {
+				"spawn_weight_range" : 200,
+				"spawn_list" : [
+					{
+						"entity" : "zombie",
+						"weight" : 15
+					},{
+						"entity" : "skeleton",
+						"weight" : 50
+					},{
+						"entity" : "ghost",
+						"weight" : 5
+					},{
+						"entity" : "vampire",
+						"weight" : 15
+					},{
+						"entity" : "coin",
+						"weight" : 40
+					},{
+						"entity" : "potion",
+						"weight" : 25
+					},{
+						"entity" : "powerhat",
+						"weight" : 5
+					}
+				]
+			}
+		}
+	},{
+		"name" : "snowy_caves",
+		"class" : "organic",
+		"region_info" : {
+			"spawn_weight" : 15,
+			"size_weight" : 1
+		},
+		"generation_info" : {
+			"scale" : 0.10,
+			"tile_set" : [
+				{
+					"factory" : "ice",
+					"info" : {
+					},
+					"weight" : 10
+				},{
+					"factory" : "floor",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 5
+				},{
+					"factory" : "floor",
+					"info" : {
+						"type" : "snow"
+					},
+					"weight" : 10
+				},{
+					"factory" : "wall",
+					"info" : {
+						"type" : "ice"
+					},
+					"weight" : 15
+				}
+			],
+			"spawning_info" : {
+				"spawn_weight_range" : 200,
+				"spawn_list" : [
+					{
+						"entity" : "zombie",
+						"weight" : 10
+					},{
+						"entity" : "skeleton",
+						"weight" : 30
+					},{
+						"entity" : "ghost",
+						"weight" : 30
+					},{
+						"entity" : "vampire",
+						"weight" : 10
+					},{
+						"entity" : "coin",
+						"weight" : 50
+					},{
+						"entity" : "potion",
+						"weight" : 10
+					},{
+						"entity" : "powerhat",
+						"weight" : 5
+					}
+				]
+			}
+		}
+	}
+]

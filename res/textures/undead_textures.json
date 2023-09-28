@@ -1,0 +1,59 @@
+[
+	{
+		"name" : "ghost",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 0,
+		"texture_y" : 0,
+		"texture_w" : 25,
+		"texture_h" : 50
+	},{
+		"name" : "skeleton",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 25,
+		"texture_y" : 0,
+		"texture_w" : 25,
+		"texture_h" : 50
+	},{
+		"name" : "vampire",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 50,
+		"texture_y" : 0,
+		"texture_w" : 25,
+		"texture_h" : 50
+	},{
+		"name" : "zombie",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 75,
+		"texture_y" : 0,
+		"texture_w" : 25,
+		"texture_h" : 50
+	},{
+		"name" : "ghost_boss",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 0,
+		"texture_y" : 50,
+		"texture_w" : 50,
+		"texture_h" : 50
+	},{
+		"name" : "skeleton_boss",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 50,
+		"texture_y" : 50,
+		"texture_w" : 50,
+		"texture_h" : 50
+	},{
+		"name" : "vampire_boss",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 50,
+		"texture_y" : 100,
+		"texture_w" : 50,
+		"texture_h" : 50
+	},{
+		"name" : "zombie_boss",
+		"texture" : "res/textures/undead.png",
+		"texture_x" : 50,
+		"texture_y" : 100,
+		"texture_w" : 50,
+		"texture_h" : 50
+	}
+]

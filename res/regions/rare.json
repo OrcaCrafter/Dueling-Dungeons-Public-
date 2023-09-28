@@ -1,0 +1,102 @@
+[
+	{
+		"name" : "slime_caverns",
+		"class" : "organic",
+		"region_info" : {
+			"spawn_weight" : 20,
+			"size_weight" : 1
+		},
+		"generation_info" : {
+			"scale" : 0.05,
+			"tile_set" : [
+				{
+					"factory" : "floor",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 20
+				},{
+					"factory" : "slime",
+					"info" : {},
+					"weight" : 2
+				},{
+					"factory" : "wall",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 10
+				}
+			],
+			"spawning_info" : {
+				"spawn_weight_range" : 200,
+				"spawn_list" : [
+					{
+						"entity" : "slimecolony",
+						"weight" : 0
+					},{
+						"entity" : "powerhat",
+						"weight" : 5
+					}
+				]
+			}
+		}
+	},{
+		"name" : "volcano",
+		"class" : "organic",
+		"region_info" : {
+			"spawn_weight" : 15,
+			"size_weight" : 1
+		},
+		"generation_info" : {
+			"scale" : 0.25,
+			"tile_set" : [
+				{
+					"factory" : "lava",
+					"info" : {
+						"flow" : "still"
+					},
+					"weight" : 20
+				},{
+					"factory" : "floor",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 10
+				},{
+					"factory" : "wall",
+					"info" : {
+						"type" : "stone"
+					},
+					"weight" : 5
+				}
+			],
+			"spawning_info" : {
+				"spawn_weight_range" : 200,
+				"spawn_list" : [
+					{
+						"entity" : "zombie",
+						"weight" : 30
+					},{
+						"entity" : "skeleton",
+						"weight" : 25
+					},{
+						"entity" : "ghost",
+						"weight" : 20
+					},{
+						"entity" : "vampire",
+						"weight" : 15
+					},{
+						"entity" : "coin",
+						"weight" : 50
+					},{
+						"entity" : "potion",
+						"weight" : 10
+					},{
+						"entity" : "powerhat",
+						"weight" : 5
+					}
+				]
+			}
+		}
+	}
+]

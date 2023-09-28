@@ -1,0 +1,123 @@
+[
+	{
+		"name" : "dust",
+		"texture" : "dust",
+		"controllers" : [
+			{
+				"type" : "partspawner",
+				"info" : {
+					"count" : 1,
+					"texture_x" : 0,
+					"texture_y" : 0,
+					"texture_w" : 1,
+					"texture_h" : 1
+				}
+			},{
+				"type" : "partanimstrip",
+				"info" : {
+					"period" : 5.0,
+					"count" : 6,
+					"width" : 0.1666666666,
+					"height" : 1.0,
+					"loop" : false
+				}
+			}
+		]
+	},{
+		"name" : "dust_trail",
+		"texture" : "dust_trail",
+		"controllers" : [
+			{
+				"type" : "partspawner",
+				"info" : {
+					"count" : 1,
+					"texture_x" : 0,
+					"texture_y" : 0,
+					"texture_w" : 1,
+					"texture_h" : 1
+				}
+			},{
+				"type" : "partanimstrip",
+				"info" : {
+					"period" : 10.0,
+					"count" : 2,
+					"width" : 0.5,
+					"height" : 1,
+					"loop" : false
+				}
+			}
+		]
+	},{
+		"name" : "sparkle",
+		"texture" : "sparkle",
+		"controllers" : [
+			{
+				"type" : "partspawner",
+				"info" : {
+					"count" : 1,
+					"texture_x" : 0,
+					"texture_y" : 0,
+					"texture_w" : 1,
+					"texture_h" : 1
+				}
+			},{
+				"type" : "partanimstrip",
+				"info" : {
+					"period" : 5.0,
+					"count" : 6,
+					"width" : 0.1666666666,
+					"height" : 1,
+					"loop" : false
+				}
+			}
+		]
+	},{
+		"name" : "blood",
+		"texture" : "blood",
+		"controllers" : [
+			{
+				"type" : "partspawner",
+				"info" : {
+					"count" : 1,
+					"texture_x" : 0,
+					"texture_y" : 0,
+					"texture_w" : 1,
+					"texture_h" : 1
+				}
+			},{
+				"type" : "partanimstrip",
+				"info" : {
+					"period" : 2.0,
+					"count" : 6,
+					"width" : 0.1666666666,
+					"height" : 1,
+					"loop" : false
+				}
+			}
+		]
+	},{
+		"name" : "potion_splash",
+		"texture" : "potion_splash",
+		"controllers" : [
+			{
+				"type" : "partspawner",
+				"info" : {
+					"count" : 1,
+					"texture_x" : 0,
+					"texture_y" : 0,
+					"texture_w" : 1,
+					"texture_h" : 1
+				}
+			},{
+				"type" : "partanimstrip",
+				"info" : {
+					"period" : 5.0,
+					"count" : 6,
+					"width" : 0.1666666666,
+					"height" : 1,
+					"loop" : false
+				}
+			}
+		]
+	}
+]

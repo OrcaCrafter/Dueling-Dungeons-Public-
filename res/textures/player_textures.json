@@ -1,0 +1,31 @@
+[
+	{
+		"name" : "player_red",
+		"texture" : "res/textures/player.png",
+		"texture_x" : 0,
+		"texture_y" : 0,
+		"texture_w" : 75,
+		"texture_h" : 200
+	},{
+		"name" : "player_green",
+		"texture" : "res/textures/player.png",
+		"texture_x" : 75,
+		"texture_y" : 0,
+		"texture_w" : 75,
+		"texture_h" : 200
+	},{
+		"name" : "player_blue",
+		"texture" : "res/textures/player.png",
+		"texture_x" : 150,
+		"texture_y" : 0,
+		"texture_w" : 75,
+		"texture_h" : 200
+	},{
+		"name" : "player_yellow",
+		"texture" : "res/textures/player.png",
+		"texture_x" : 225,
+		"texture_y" : 0,
+		"texture_w" : 75,
+		"texture_h" : 200
+	}
+]

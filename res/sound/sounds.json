@@ -1,0 +1,28 @@
+[
+	{
+		"path" : "res/sound/power_up.wav",
+		"name" : "power_up",
+		"pitch_low" : 1,
+		"pitch_high" : 1
+	},{
+		"path" : "res/sound/coin.wav",
+		"name" : "coin_collect",
+		"pitch_low" : 0.9,
+		"pitch_high" : 1.1
+	},{
+		"path" : "res/sound/drink.wav",
+		"name" : "potion_drink",
+		"pitch_low" : 0.8,
+		"pitch_high" : 1.2
+	},{
+		"path" : "res/sound/hit.wav",
+		"name" : "damage_taken",
+		"pitch_low" : 0.8,
+		"pitch_high" : 1.2
+	},{
+		"path" : "res/sound/slime.wav",
+		"name" : "slime_think",
+		"pitch_low" : 0.8,
+		"pitch_high" : 1.2
+	}
+]

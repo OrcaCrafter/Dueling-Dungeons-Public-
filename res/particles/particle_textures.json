@@ -1,0 +1,38 @@
+[
+	{
+		"name" : "dust",
+		"texture" : "res/particles/dust.png",
+		"texture_x" : 0,
+		"texture_y" : 0,
+		"texture_w" : 150,
+		"texture_h" : 25
+	},{
+		"name" : "dust_trail",
+		"texture" : "res/particles/dust_trail.png",
+		"texture_x" : 0,
+		"texture_y" : 0,
+		"texture_w" : 50,
+		"texture_h" : 25
+	},{
+		"name" : "sparkle",
+		"texture" : "res/particles/sparkle.png",
+		"texture_x" : 0,
+		"texture_y" : 0,
+		"texture_w" : 150,
+		"texture_h" : 25
+	},{
+		"name" : "blood",
+		"texture" : "res/particles/blood.png",
+		"texture_x" : 0,
+		"texture_y" : 0,
+		"texture_w" : 150,
+		"texture_h" : 25
+	},{
+		"name" : "potion_splash",
+		"texture" : "res/particles/potion_splash.png",
+		"texture_x" : 0,
+		"texture_y" : 0,
+		"texture_w" : 150,
+		"texture_h" : 25
+	}
+]
